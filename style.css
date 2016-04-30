@@ -1,20 +1,36 @@
 h1 {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 }
 
 h3 {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 }
 
 img {
-  margin: 40px 0px 0px 0px;
-  border: 7px solid white;
-  border-radius: 20px;
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px;
 }
 header {
-  text-align: center;
-  background-size: center;
-  background: url('http://kaboompics.com/files/upload/o_1a06unthd9i010i1di2nbq1e4f7_new.jpg');
+    text-align: center;
+    background-size: center;
+    background: url('http://kaboompics.com/files/upload/o_1a06unthd9i010i1di2nbq1e4f7_new.jpg');
 }
+
+p {
+  text-align: center;
+  color: black;
+}
+
+li {
+  display: incline;
+  padding: 0px 10px 0px 10px;
+}
+
+ul {
+  padding: 10px;
+  background: rgba(0, 0, 0,0.2);
+}
+
