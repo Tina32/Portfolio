@@ -1,3 +1,20 @@
-.h1 {
+h1 {
+  color: white;
   text-align: center;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
+img {
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+header {
+  text-align: center;
+  background-size: center;
+  background: url('http://kaboompics.com/files/upload/o_1a06unthd9i010i1di2nbq1e4f7_new.jpg');
 }
