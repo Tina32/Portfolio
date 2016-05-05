@@ -4,7 +4,7 @@ h1 {
 }
 
 h3 {
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -13,10 +13,16 @@ img {
     border: 7px solid white;
     border-radius: 20px;
 }
-header {
+
+.header {
+      background: url('http://kaboompics.com/files/upload/o_1a06unthd9i010i1di2nbq1e4f7_new.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     text-align: center;
-    background-size: center;
-    background: url('http://kaboompics.com/files/upload/o_1a06unthd9i010i1di2nbq1e4f7_new.jpg');
+}
+
+.title {
+  color: white;
 }
 
 p {
@@ -29,8 +35,17 @@ li {
   padding: 0px 10px 0px 10px;
 }
 
+.menulink {
+  display: inline-block;
+  padding-right: 10px;
+}
+
 ul {
   padding: 10px;
   background: rgba(0, 0, 0,0.2);
+}
+
+.icon {
+  width: 50px;
 }
 
