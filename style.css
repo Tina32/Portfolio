@@ -1,0 +1,64 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+img {
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px;
+    height: 150px;
+    width: 150p;
+
+
+}
+
+.about-me {
+  padding:50px;
+}
+
+p {
+  text-align: center;
+  color: black;
+}
+
+/*li {
+  display: incline;
+  padding: 0px 10px 0px 10px;
+}
+*/
+ul {
+  padding: 10px;
+  background: rgba(0, 0, 0,0.2);
+}
+
+.header {
+      background: url('http://kaboompics.com/files/upload/o_1a06unthd9i010i1di2nbq1e4f7_new.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.title {
+  color: white;
+}
+
+.menulink {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+
+.icon {
+  width: 50px;
+}
+
+.icon2 {
+  width: 50px;
+}
+
