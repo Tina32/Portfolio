@@ -14,6 +14,21 @@ img {
     border-radius: 20px;
 }
 
+p {
+  text-align: center;
+  color: black;
+}
+
+/*li {
+  display: incline;
+  padding: 0px 10px 0px 10px;
+}
+*/
+ul {
+  padding: 10px;
+  background: rgba(0, 0, 0,0.2);
+}
+
 .header {
       background: url('http://kaboompics.com/files/upload/o_1a06unthd9i010i1di2nbq1e4f7_new.jpg');
     background-size: 100% 100%;
@@ -25,27 +40,17 @@ img {
   color: white;
 }
 
-p {
-  text-align: center;
-  color: black;
-}
-
-li {
-  display: incline;
-  padding: 0px 10px 0px 10px;
-}
-
 .menulink {
   display: inline-block;
   padding-right: 10px;
 }
 
-ul {
-  padding: 10px;
-  background: rgba(0, 0, 0,0.2);
-}
 
 .icon {
+  width: 50px;
+}
+
+.icon2 {
   width: 50px;
 }
 
