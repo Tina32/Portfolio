@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Gatina Foy -- Full Stack Developer --
+
+# THANKS
+
+  Gatina Foy -- Full Stack Developer --
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, Bootstrap 3, JavaScript, jQuery

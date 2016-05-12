@@ -1,0 +1,53 @@
+/********************
+Style files - variables
+********************/
+
+@import "variables-colors.scss";
+@import "variables-grids.scss";
+@import "variables-typography.scss";
+
+/********************
+Sarah Cannon style files - bases
+********************/
+
+// @import url("grid.less");
+// @import url("reset.less");
+// @import "scaffolding.scss";
+@import "typography.scss";
+
+/********************
+Style files - components
+********************/
+
+@import "main.scss";
+
+/********************
+Sarah Cannon style files - library overrides
+********************/
+
+// @import url("overrides-lib-bootstrap.less");
+
+/********************
+HUT style files
+// More HUT app styles located in start.vtl file (/themes/sarahcannon/v1/includes/start.vtl)
+// or possibly pulled in through app config in dotCMS interface
+********************/
+
+// Fallback icons for font awesome-er
+// @import url("../../../../themes/hospital/v2/less/base__icons-fallback.less");
+
+/********************
+Sarah Cannon style files - page specific files not imported
+//Styles file css output location: /themes/sarahcannon/v1/less/css/page-specific/page-about-leadership.css
+********************/
+
+// @import url("page-about-leadership.less");
+// @import url("page-about-newsroom.less");
+// @import url("page-campaigns-asco.less");
+// @import url("page-for-patients.less");
+// @import url("page-for-patients-learn-about-cancer.less");
+// @import url("page-home.less");
+// @import url("page-locations-markets.less");
+// @import url("page-search-results.less");
+// @import url("page-search-results-clinical-trials.less");
+// @import url("page-stories.less");

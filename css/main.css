@@ -1,0 +1,160 @@
+h1 {
+    color: #599C97;
+    font-size: 4em
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 6em
+    }
+}
+
+h2 {
+    color: #599C97;
+    font-size: 2em
+}
+
+@media (min-width: 992px) {
+    h2 {
+        font-size: 5em
+    }
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    text-align: center
+}
+
+@media (min-width: 992px) {
+    h3 {
+        font-size: 3em
+    }
+}
+
+h4 {
+    font-size: 1.5em
+}
+
+.padding-xs {
+    padding-top: 1%;
+    padding-bottom: 1%
+}
+
+.padding-md {
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+.padding-xl {
+    padding-top: 10%;
+    padding-bottom: 10%
+}
+
+.img-center {
+    margin: 0 auto
+}
+
+.image-container {
+    position: relative
+}
+
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF
+}
+
+.image-container:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.navbar-default {
+    background-color: #599C97;
+    border-color: #A4EFC1
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #A4EFC1
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff
+}
+
+#header {
+    padding-top: 200px;
+    background: url(../img/backgrounds/background-welcome.jpg) center center no-repeat fixed #599C97;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+    text-align: left
+}
+
+@media (min-width: 992px) {
+    #header {
+        min-height: 700px
+    }
+}
+
+#feature {
+    background-color: #A4EFC1;
+    color: #fff;
+    text-align: center;
+    font-size: 2em
+}
+
+@media (min-width: 992px) {
+    #feature {
+        font-size: 3em
+    }
+}
+
+#about {
+    background-color: #3D6B67
+}
+
+.wrapper-white-background {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5%
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.card {
+    padding: 15px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    background: url(../img/backgrounds/background-green.png) repeat-x !important
+}
+
+#contact {
+    background-color: #3D6B67
+}
+
+

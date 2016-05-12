@@ -1,0 +1,89 @@
+/********************
+Variables for grids, containers, columns, rows, media queries
+********************/
+
+/********************
+Media query sizes
+********************/
+
+$screen-xs:       480px;
+$screen-sm:       768px;
+$screen-md:       992px;
+$screen-lg:       1200px;
+$screen-xl:       1400px;
+
+$screen-xs-min:     $screen-xs;       //  480px;
+$screen-sm-min:     $screen-sm;       //  768px
+$screen-md-min:     $screen-md;       //  992px
+$screen-lg-min:     $screen-lg;       //  1200px
+$screen-xl-min:     $screen-xl;       //  1400px
+
+$screen-xs-max:     ($screen-sm-min - 1); //  767px
+$screen-sm-max:     ($screen-md-min - 1); //  991px
+$screen-md-max:     ($screen-lg-min - 1); //  1199px
+
+/********************
+Media query breakpoints
+********************/
+
+$xs: (min-width: $screen-xs-min);
+$sm: (min-width: $screen-sm-min);
+$md: (min-width: $screen-md-min);
+$lg: (min-width: $screen-lg-min);
+$xl: (min-width: $screen-xl-min);
+
+// @media (min-width: $screen-xs-min) {
+//   // Small devices (mobile, 480px and up)
+// }
+// $xs: ~"(min-width: 480px)";
+
+// @media (min-width: $screen-sm-min) {
+//   // Small devices (tablets, 768px and up)
+// }
+// $sm: ~"(min-width: 768px)";
+
+// @media (min-width: $screen-md-min) {
+//   // Medium devices (desktops, 992px and up)
+// }
+// $md: ~"(min-width: 992px)";
+
+// @media (min-width: $screen-lg-min) {
+//   // Large devices (large desktops, 1280px and up)
+// }
+// $lg: ~"(min-width: 1280px)";
+
+// @media (min-width: $screen-xl-min) {
+//   // Extra large devices (large desktops, 1400px and up)
+// }
+// $xl: ~"(min-width: 1400px)";
+
+
+@mixin xs {
+  @media (min-width: 480px) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: 1400px) {
+    @content;
+  }
+}

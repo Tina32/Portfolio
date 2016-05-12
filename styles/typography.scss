@@ -1,0 +1,176 @@
+// /********************
+// Typography
+// ********************/
+
+// /********************
+// Font licenses
+// ********************/
+
+// /*{"c":"2015-02-23T16:46:48Z","s":"prod-origin-41d6b0ac","v":"f68475"}*/
+// /*
+//  * The Typekit service used to deliver this font or fonts for use on websites
+//  * is provided by Adobe and is subject to these Terms of Use
+//  * http://www.adobe.com/products/eulas/tou_typekit.
+//  *
+//  * (c) 2009-2015 Adobe Systems Incorporated. All Rights Reserved.
+//  */
+
+// /********************
+// Text - headings
+// ********************/
+
+h1 {
+  color: $brand-primary;
+  font-size: 4em;
+
+  @include md {
+    font-size: 6em;
+  }
+
+}
+
+h2 {
+
+  color: $brand-primary;
+  font-size: 2em;
+
+  @include md {
+    font-size: 5em;
+  }
+
+}
+
+h3 {
+
+  font-size: 2em;
+  margin-bottom: 1.5em;
+  text-align: center;
+
+  @include md {
+    font-size: 3em;
+  }
+
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+// h5, h6 {
+//  color: @black;
+//  font-family: @font-family-sans-serif;
+// }
+
+// /********************
+// Text - lists
+// ********************/
+
+// // ul, ol {
+// //   line-height: 1.5em;
+// //   margin-top: 20px;
+// //   margin-bottom: 20px;
+// // }
+
+// /********************
+// Text - style helpers
+// ********************/
+
+// // .bold {
+// //   font-weight: bold;
+// // }
+
+// /********************
+// Text - other headings
+// ********************/
+
+// // .headline {
+
+// //   color: @heading-color-dark;
+// //   font-weight: 200;
+// //   font-size: 2em;
+// //   line-height: 1.3em;
+
+// //   a {
+// //     color: @brand-primary;
+// //     font: inherit;
+// //   }
+
+// // }
+
+// // Sub headers used with page headers in hero areas
+// // .sub-header {
+// //   font-size: 1.125em;
+// //   font-family: @font-family-serif;
+// // }
+
+// // // Tagline for sections
+// // .section-tagline {
+// //   color: @heading-color-dark;
+// //   font-weight: 200;
+// //   font-size: 2.111em;
+// //   line-height: 1.5em;
+
+// //   &.sm {
+// //     font-weight: 400;
+// //     font-size: 1.4em;
+// //     line-height: 1.4em;
+// //   }
+
+// // }
+
+// // Article titles
+// .section-subheader {
+//  color: @body-font-color;
+//  font-weight: 200;
+//  font-size: 2.111em;
+//  line-height: 1.5em;
+// }
+
+// // Bootstrap override
+// // Used on campaigns/asco page
+// blockquote {
+//  color: @gray-darkest;
+//  border-left: none;
+//  font-family: @font-family-serif;
+//  font-weight: 100;
+//  font-size: 2em;
+//  line-height: 1.1em;
+//  margin: 0;
+//  padding: 0;
+// }
+
+// /********************
+// Text - colors
+// ********************/
+
+// .text-white {
+//  color: @white;
+// }
+
+// .text-gray-darkest {
+//  color: @gray-darkest;
+// }
+
+// .text-blue-soft {
+//  color: @blue-soft;
+// }
+
+// .text-blue-darker {
+//  color: @blue-darker;
+// }
+
+// /********************
+// Text - allignment
+// ********************/
+
+// .text-center {
+//  text-align: center;
+// }
+
+// .text-right {
+//  text-align: right;
+// }
+
+// .text-left {
+//  text-align: left;
+// }

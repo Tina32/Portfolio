@@ -1,0 +1,171 @@
+/********************
+Main styles
+********************/
+
+// Padding
+.padding-xs {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.padding-md {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.padding-xl {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+// Images
+
+.img-center {
+  margin: 0 auto;
+}
+
+// .border {
+//  border: 3px solid $gray;
+// }
+
+// .overlay {
+//  background:rgba(211,211,211,.75);
+// }
+
+// .opacity {
+//  opacity: 0.8;
+// }
+
+.image-container {
+    position: relative;
+    // width: 200px;
+    // height: 300px;
+}
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+.image-container:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
+/********************
+Navbar
+********************/
+.navbar-default {
+  background-color: $brand-primary;
+  border-color: $brand-secondary;
+}
+
+// Bootstrap override
+.navbar-default .navbar-nav>li>a {
+  color: $white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: $cyan-soft;
+}
+
+// Bootstrap override
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: $white;
+}
+
+
+
+/********************
+Section: Header
+********************/
+
+#header {
+
+  // Padding for navbar spacing
+  padding-top: 200px;
+  background: url(../img/backgrounds/background-welcome.jpg) center center no-repeat fixed $brand-primary;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  text-align: left;
+
+  @include md {
+    min-height: 700px;
+  }
+
+}
+
+/********************
+Section: Feature
+********************/
+
+#feature {
+  background-color: $brand-secondary;
+  color: $white;
+  text-align: center;
+  font-size: 2em;
+
+  @include md {
+    font-size: 3em;
+  }
+}
+
+// #portfolio {
+//  padding-top: 5%;
+//  padding-bottom: 5%;
+// }
+
+/********************
+Section: About
+********************/
+
+#about {
+  background-color: $brand-tertiary;
+}
+
+.wrapper-white-background {
+  background-color: $white;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+// https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/********************
+Section: News
+********************/
+
+.card {
+  // border: solid 1px #D3D3D3;
+  padding: 15px;
+  // margin: 15px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 1px 6px rgba(0,0,0,.1);
+  background: url(../img/backgrounds/background-green.png) repeat-x!important;
+}
+
+/********************
+Section: Contact
+********************/
+
+#contact {
+  background-color: $brand-tertiary;
+}
