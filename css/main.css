@@ -14,10 +14,10 @@ h3 {
     text-align: center
 }
 
-h4 {
+/*h4 {
     font-size: 1.5em
 }
-
+*/
 @media (min-width: 992px) {
     h1 {
         font-size: 6em
@@ -125,10 +125,19 @@ text-align: left;
     color: #0000;
     text-align: center;
 }
-.skills {
+/*.skills {
     font-size: .5em;
     text-align: center;
-    /*display: inline-block;*/
+    display: inline-block;
+}
+*/
+.row {
+    box-sizing: border-box;
+}
+
+.rows {
+    display: inline-block;
+    font-size: .4em;
 }
 
 #about {
