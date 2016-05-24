@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+  <script>
+  angular.module('calculator', []);
+  angular.module('calculator')
+  .controller('myController', function($scope){
+                $scope.result = 0;
+                $scope.add = function(){
+                  $scope.result =
+                  parseFloat($scope.amount1) +
+                  parseFloat($scope.amount2);
+                };
+                $scope.sub = function(){
+                  $scope.result =
+                  parseFloat($scope.amount1) -
+                  parseFloat($scope.amount2);
+                };
+              });
+  </script>
+</head>
+
+<body>
+<div ng-app="calculator" ng-controller="myController">
+<h1> Angular Calculator </h1>
+
+<h3>Enter amount 1: <input type="text" ng-model="amount1" placeholder="Enter Number">
+</h3>
+
+<h3> Enter amount 2: <input type="text" ng-model="amount2" placeholder="Enter Number">
+</h3>
+
+<button ng-click="add();">Add</button>
+<button ng-click="sub();">Subtract</button>
+
+<h3> The result is {{ result }}</h3>
+
+</div>
+</body>
+</html>
